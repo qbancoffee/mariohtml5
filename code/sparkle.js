@@ -10,7 +10,7 @@ Mario.Sparkle = function(world, x, y, xa, ya) {
     this.Xa = xa;
     this.Ya = ya;
     this.XPic = (Math.random() * 2) | 0;
-    this.YPic = 0;
+    this.YPic = 2;
     
     this.Life = 10 + ((Math.random() * 5) | 0);
     this.XPicStart = this.XPic;
